@@ -1,5 +1,5 @@
 {
-  description = "My first flake!";
+  description = "NixConfig";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
@@ -10,7 +10,7 @@
       lib = nixpkgs.lib;
     in {
       nixosConfigurations = {
-        YOURHOSTNAME = lib.nixosSystem {
+        nix = lib.nixosSystem {
           system = "x86_64-linux";
           modules = [ 
             ./configuration.nix
