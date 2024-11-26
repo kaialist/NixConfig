@@ -15,6 +15,11 @@
           modules = [ 
             ./configuration.nix
             modules/nvidia.nix
+            modules/kernel.nix
+            modules/locale.nix
+            modules/packages.nix
+            modules/plasma.nix
+            modules/security.nix
           ];
       };
     };
