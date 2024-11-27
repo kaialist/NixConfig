@@ -7,5 +7,5 @@
     boot.kernelParams = [ "quiet" "nvidia.NVreg_EnableGpuFirmware=0" ];
 
     # Kernel
-    boot.kernelPackages = pkgs.linuxPackages_6_11;
+    boot.kernelPackages = pkgs.linuxPackages_latest;
 }
