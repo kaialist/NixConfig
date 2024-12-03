@@ -67,6 +67,10 @@
                 url = "https://chatgpt.com/";
               }
               {
+                name = "Claude";
+                url = "https://claude.ai";
+              }
+              {
                 name = "character.ai";
                 url = "https://character.ai/";
               }
