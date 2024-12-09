@@ -16,6 +16,9 @@
     protontricks
   ];
 
+  # Firefox
+  programs.firefox.enable = true;
+
   # Git
   programs.git = {
     enable = true;
